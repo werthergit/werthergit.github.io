@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CSS
+title: Spring
 permalink: /css/
 ---
 

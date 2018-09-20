@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Table
+title: Mysql
 permalink: /table/
 ---
 

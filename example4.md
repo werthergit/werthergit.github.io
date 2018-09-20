@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Carousel
+title: Docker
 permalink: /carousel/
 ---
 

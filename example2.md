@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spring
-permalink: /css/
+permalink: /spring/
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>

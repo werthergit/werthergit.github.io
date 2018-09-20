@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Docker
-permalink: /carousel/
+permalink: /docker/
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>

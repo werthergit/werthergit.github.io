@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mysql
-permalink: /table/
+permalink: /mysql/
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>

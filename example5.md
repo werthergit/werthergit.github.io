@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Redis
-permalink: /carousel/
+permalink: /redis/
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>

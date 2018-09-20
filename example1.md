@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JVM
-permalink: /Buttoms/
+permalink: /jvm/
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>

@@ -67,11 +67,8 @@ layout: default
         <ul class="collection">
             {% assign count = 0 %}
         {% for post in site.posts %}
-            {% increment count %}
             {{ count }}
-            {% if count == 5 %}
-                {% break %}
-            {% else %}
+
         <li class="collection-item avatar">
           {% assign date_format = site.minima.date_format | default: "%m/%d" %}
           <div class="date-post">{{ post.date | date: date_format }}</div>
@@ -81,7 +78,6 @@ layout: default
           </p>
           <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
         </li>
-            {% endif %}
         {% endfor %}
         </ul>  
     </section>

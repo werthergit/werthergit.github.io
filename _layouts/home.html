@@ -67,8 +67,9 @@ layout: default
         <ul class="collection">
             {% assign count = 0 %}
         {% for post in site.posts %}
+            {% count | plus: 1 %}
             {{ count }}
-            {% if count++ == 4 %}
+            {% if count == 5 %}
                 {% break %}
             {% else %}
                 <li class="collection-item avatar">

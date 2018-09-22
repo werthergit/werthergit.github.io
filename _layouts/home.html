@@ -63,12 +63,12 @@ layout: default
     <div style="background: #ddd">
     <div class="container last-post">
     <section>
-        <h5>Latest Post 2 </h5>
+        <h5>Latest Post </h5>
         <ul class="collection">
             {% assign count = 0 %}
             {% for post in site.posts %}
-            {{ forloop.index }}
-            {% if forloop.index == 5 %}
+           <!-- {{ forloop.index }} -->
+            {% if forloop.index == 6 %}
             {% break %}
             {% else %}
             <li class="collection-item avatar">

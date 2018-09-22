@@ -65,7 +65,6 @@ layout: default
     <section>
         <h5>Latest Post</h5>
         <ul class="collection">
-            {% assign count = 0 %}
         {% for post in site.posts %}
         <li class="collection-item avatar">
           {% assign date_format = site.minima.date_format | default: "%m/%d" %}

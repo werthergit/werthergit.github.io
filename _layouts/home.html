@@ -60,12 +60,15 @@ layout: default
       
     </div>
 -->
-    <div style="background: #ddd">
+    <div style="background: #43CD80">
     <div class="container last-post">
     <section>
         <h5>Latest Post</h5>
         <ul class="collection">
+            {% assign count = 0 %}
         {% for post in site.posts %}
+            {% if i++ == 4 %}
+            {% break %}
         <li class="collection-item avatar">
           {% assign date_format = site.minima.date_format | default: "%m/%d" %}
           <div class="date-post">{{ post.date | date: date_format }}</div>

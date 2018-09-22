@@ -67,6 +67,7 @@ layout: default
         <ul class="collection">
             {% assign count = 0 %}
         {% for post in site.posts %}
+            {{ count }}
             {% if count++ == 4 %}
                 {% break %}
             {% else %}
